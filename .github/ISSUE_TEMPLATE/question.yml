@@ -53,7 +53,8 @@ body:
   - type: textarea
     id: additional-information
     attributes:
-      label: Provide as much useful information as you can, e.g. Links to Figma or other references
+      label: Provide as much useful information as you can
+      description: e.g. Links to Figma or other references
     validations:
       required: false
   - type: input
