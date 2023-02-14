@@ -39,7 +39,6 @@ body:
         - 'Design Tokens'
         - 'Components'
         - 'Other'
-        - 'None'
     validations:
       required: true
   - type: input
@@ -65,7 +64,6 @@ body:
         - 'Mouse/Keyboard'
         - 'Touch'
         - 'Other'
-        - 'None'
     validations:
       required: false
   - type: input
