@@ -52,7 +52,7 @@ body:
   - type: input
     id: link
     attributes:
-      label: Link to design proposal file (optional)
+      label: Link to design proposal file
       description: Figma-Link
     validations:
       required: false
