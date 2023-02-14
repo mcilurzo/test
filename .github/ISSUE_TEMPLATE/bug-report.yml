@@ -8,7 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Thanks for taking the time to fill out this bug report!
+        # Thanks for taking the time to fill out this bug report!
+        ## Preflight Checklist
   - type: checkboxes
     id: preflight-checklist
     attributes:
@@ -21,6 +22,10 @@ body:
           required: true
         - label: I have searched the issue tracker for an issue that matches the one I want to file, without success.
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## General Information
   - type: dropdown
     id: bug-type
     attributes:
@@ -44,6 +49,10 @@ body:
         - 'Other'
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Environment
   - type: input
     id: os
     attributes:
@@ -76,6 +85,10 @@ body:
       description: e.g. save data active
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Detailed description
   - type: input
     id: contact
     attributes:
