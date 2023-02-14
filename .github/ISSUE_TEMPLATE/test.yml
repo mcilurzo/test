@@ -1,0 +1,100 @@
+name: Test
+description: File a bug report
+about: Use this template for tracking new features.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: preflight-checklist
+    attributes:
+      label: Preflight Checklist
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I have read the [Contributing Guidelines](https://github.com/lyne-design-system/lyne-components/blob/master/CONTRIBUTING.md) for this project.
+          required: true
+        - label: I agree to follow the [Code of Conduct](https://github.com/lyne-design-system/lyne-components/blob/master/CODE_OF_CONDUCT.md) that this project adheres to.
+          required: true
+        - label: I have searched the issue tracker for an issue that matches the one I want to file, without success.
+          required: true
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Bug type
+      options:
+        - 'Accessibility'
+        - 'Performance'
+        - 'Security vulnerability'
+        - 'Other'
+    validations:
+      required: true
+  - type: dropdown
+    id: component-or-design-token
+    attributes:
+      label: It affects the following packages
+      options:
+        - 'Design Tokens'
+        - 'Components'
+        - 'Other'
+        - 'None'
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system 
+      description: e.g. Windows 10
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / Browser version 
+      description: e.g. Mozilla Firefox 74.0 (64-bit)
+    validations:
+      required: false
+  - type: dropdown
+    id: input-mode
+    attributes:
+      label: Input mode
+      description: e.g. touch
+      options:
+        - 'Mouse/Keyboard'
+        - 'Touch'
+        - 'Other'
+        - 'None'
+    validations:
+      required: false
+  - type: input
+    id: additional-settings
+    attributes:
+      label: Additional settings 
+      description: e.g. save data active
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Functionality
+      description: For what purpose is the component used? What features does it need to have? Which component should be enhanced?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to design proposal file (optional)
+      description: Figma-Link
+    validations:
+      required: false
