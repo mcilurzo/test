@@ -1,5 +1,6 @@
 name: Feature request or enhancement
 description: Request for a new component or enhancement of a component
+about: Use this template for tracking new features.
 title: '[Feature request]: '
 labels: ['type: feature-request']
 body:
