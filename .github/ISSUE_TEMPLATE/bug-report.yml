@@ -33,14 +33,14 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: packages
+    id: eintest
     attributes:
-      label: It affects the following packages
+      label: Bug type
       options:
-        - 'Design Tokens'
-        - 'Components'
+        - 'Accessibility'
+        - 'Performance'
+        - 'Security vulnerability'
         - 'Other'
-        - 'None'
     validations:
       required: true
   - type: input
