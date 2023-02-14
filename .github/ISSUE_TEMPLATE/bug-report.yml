@@ -32,31 +32,6 @@ body:
         - 'Other'
     validations:
       required: true
-  - type: dropdown
-    id: component-or-design-token
-    attributes:
-      label: It affects the following packages
-      options:
-        - 'Design Tokens'
-        - 'Components'
-        - 'Other'
-        - 'None'
-    validations:
-      required: true
-  - type: input
-    id: os
-    attributes:
-      label: Operating system 
-      description: e.g. Windows 10
-    validations:
-      required: false
-  - type: input
-    id: browser
-    attributes:
-      label: Browser / Browser version 
-      description: e.g. Mozilla Firefox 74.0 (64-bit)
-    validations:
-      required: false
   - type: input
     id: contact
     attributes:
