@@ -40,6 +40,7 @@ body:
         - 'Design Tokens'
         - 'Components'
         - 'Both'
+        - 'Other'
     validations:
       required: true
   - type: input
