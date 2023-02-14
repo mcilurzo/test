@@ -33,9 +33,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: eintest
+    id: component-or-design-token
     attributes:
-      label: Bug type
+      label: It affects the following packages
       options:
         - 'Design Tokens'
         - 'Components'
