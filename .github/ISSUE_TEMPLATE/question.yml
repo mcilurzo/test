@@ -39,11 +39,11 @@ body:
     validations:
       required: true
   - type: input
-    id: relevant-information
+    id: question
     attributes:
-      label: Your question
+      label: Your Question
     validations:
-      required: true    
+      required: true 
   - type: textarea
     id: relevant-information
     attributes:
