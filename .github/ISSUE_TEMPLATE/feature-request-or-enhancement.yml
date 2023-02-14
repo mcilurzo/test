@@ -22,7 +22,6 @@ body:
         - 'Components'
         - 'Design Tokens & Components'
         - 'Other'
-        - 'None'
     validations:
       required: true
   - type: textarea
