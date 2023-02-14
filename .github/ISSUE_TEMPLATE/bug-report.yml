@@ -57,25 +57,6 @@ body:
       description: e.g. Mozilla Firefox 74.0 (64-bit)
     validations:
       required: false
-  - type: dropdown
-    id: input-mode
-    attributes:
-      label: Input mode
-      description: e.g. touch
-      options:
-        - 'Mouse/Keyboard'
-        - 'Touch'
-        - 'Other'
-        - 'None'
-    validations:
-      required: false
-  - type: input
-    id: additional-settings
-    attributes:
-      label: Additional settings 
-      description: e.g. save data active
-    validations:
-      required: false
   - type: input
     id: contact
     attributes:
