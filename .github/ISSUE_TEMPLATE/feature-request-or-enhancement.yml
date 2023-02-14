@@ -5,10 +5,6 @@ labels: ['type: feature-request']
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Please describe your idea in as much detail as possible.
   - type: checkboxes
     id: preflight-checklist
     attributes:
@@ -21,6 +17,10 @@ body:
           required: true
         - label: I have searched the issue tracker for an issue that matches the one I want to file, without success.
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Please describe your idea in as much detail as possible.
   - type: dropdown
     id: new-or-enhancement
     attributes:
