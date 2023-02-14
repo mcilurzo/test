@@ -38,6 +38,9 @@ body:
       label: Bug type
       options:
         - 'Design Tokens'
+        - 'Components'
+        - 'Both'
+        - 'None'
     validations:
       required: true
   - type: input
