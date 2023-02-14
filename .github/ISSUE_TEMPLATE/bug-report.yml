@@ -33,7 +33,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: component-or-design-token
+    id: packages
     attributes:
       label: It affects the following packages
       options:
