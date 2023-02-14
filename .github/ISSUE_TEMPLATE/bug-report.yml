@@ -37,10 +37,10 @@ body:
     attributes:
       label: Bug type
       options:
-        - 'Accessibility'
-        - 'Performance'
-        - 'Security vulnerability'
+        - 'Design Tokens'
+        - 'Components'
         - 'Other'
+        - 'None'
     validations:
       required: true
   - type: input
