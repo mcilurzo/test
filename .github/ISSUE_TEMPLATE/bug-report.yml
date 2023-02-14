@@ -49,6 +49,13 @@ body:
         - 'Other'
     validations:
       required: true
+  - type: input
+    id: version
+    attributes:
+      label: Which version of Lyne Components are you using 
+      description: e.g. 26.2
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
@@ -71,7 +78,6 @@ body:
     id: input-mode
     attributes:
       label: Input mode
-      description: e.g. touch
       options:
         - 'Mouse/Keyboard'
         - 'Touch'
@@ -106,9 +112,7 @@ body:
       value: |
         Describe in detail the issue you are having.
         What did you expect to happen? What happened instead? What would you like to see changed?
-        Which version of Lyne Components are you using?
-        Is the issue related to a specific component? If so please provide the components Storybook link of the corresponding version.
-        What offering/product do you work on? Any pressing shipping or release dates we should be aware of?
+        Is the issue related to a specific component?
     validations:
       required: true
   - type: dropdown
