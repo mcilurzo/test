@@ -1,5 +1,5 @@
-name: Feature request or enhancement
-description: Request for a new component or enhancement of a component
+name: Request for contributing
+description: Request for contributing a new component or enhancement of a component
 title: "[Contributing request]: "
 labels: ['type: contributing-request']
 assignees:
