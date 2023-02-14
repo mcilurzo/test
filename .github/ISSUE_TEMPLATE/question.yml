@@ -1,10 +1,16 @@
-name: Request for contributing
-description: Request for contributing a new component or enhancement of a component
-title: "[Contributing request]: "
-labels: ['type: contributing-request']
+name: Question
+description: Usage question or discussion about Components or Design Tokens
+title: "[Question]: "
+labels: ['type: question']
 assignees:
   - octocat
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Hi there! 👋🏻 We hope everything is fine using our projects from the Lyne Design System. It looks like you might have a question about our work, so we wanted to share some resources that you could use if you have not tried them yet 🙂.
+        You can find the Lyne Components documentation [here](https://github.com/lyne-design-system/lyne-components/docs). Also have first a look at our [issues](https://github.com/lyne-design-system/lyne-components/issues) if your question/issue has been asked/raised before or even might have been solved.
+        If these resources do not work out, help us out by filling out a couple of details below!
   - type: checkboxes
     id: preflight-checklist
     attributes:
@@ -20,16 +26,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Please describe your idea in as much detail as possible.
-  - type: dropdown
-    id: new-or-enhancement
-    attributes:
-      label: Contribution type
-      options:
-        - 'Contribute a new component'
-        - 'Contribute an enhancement of a component'
-    validations:
-      required: true
+        ## Your question
   - type: dropdown
     id: component-or-design-token
     attributes:
@@ -41,26 +38,24 @@ body:
         - 'Other'
     validations:
       required: true
-  - type: textarea
-    id: feature-description
-    attributes:
-      label: Feature Description
-      description: For what purpose is the component used? What features does it need to have? Which component should be enhanced?
-    validations:
-      required: true
   - type: input
-    id: link
+    id: relevant-information
     attributes:
-      label: Link to design proposal file
-      description: Figma-Link
+      label: Your question
+    validations:
+      required: true    
+  - type: textarea
+    id: relevant-information
+    attributes:
+      label: Give us a summary about your question
     validations:
       required: false
   - type: textarea
-    id: markup-proposal
+    id: additional-information
     attributes:
-      label: Please send a proposal for a html markup
-      description: This input will be automatically formatted into html.
-      render: html
+      label: Provide as much useful information as you can, e.g. Links to Figma or other references
+    validations:
+      required: false
   - type: input
     id: contact
     attributes:
@@ -69,3 +64,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
+
+
+
+      
