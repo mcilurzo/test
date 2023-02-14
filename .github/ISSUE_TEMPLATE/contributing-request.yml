@@ -24,10 +24,10 @@ body:
   - type: dropdown
     id: new-or-enhancement
     attributes:
-      label: Request type
+      label: Contribution type
       options:
-        - 'Request for a new component'
-        - 'Request for enhancement of a component'
+        - 'Contribute a new component'
+        - 'Contribute an enhancement of a component'
     validations:
       required: true
   - type: dropdown
@@ -61,3 +61,11 @@ body:
       label: Please send a proposal for a html markup
       description: This input will be automatically formatted into html.
       render: html
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false     
