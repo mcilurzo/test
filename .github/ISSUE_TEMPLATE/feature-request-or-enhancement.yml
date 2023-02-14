@@ -1,7 +1,7 @@
 name: Feature request or enhancement
 description: Request for a new component or enhancement of a component
-title: 'Lyne: [Feature request]: '
-labels: ['type: enhancement 💡']
+title: '[Feature request]: '
+labels: ['type: feature-request']
 body:
   - type: dropdown
     id: new-or-enhancement
@@ -12,6 +12,18 @@ body:
         - 'Request for enhancement of a component'
     validations:
       required: true
+  - type: dropdown
+    id: component-or-design-token
+    attributes:
+      label: It affects the following packages
+      options:
+        - 'Design Tokens'
+        - 'Components'
+        - 'Design Tokens & Components'
+        - 'Other'
+        - 'None'
+    validations:
+      required: true
   - type: textarea
     id: request
     attributes:
@@ -19,21 +31,11 @@ body:
       description: For what purpose is the component used? What features does it need to have? Which component should be enhanced?
     validations:
       required: true
-  - type: dropdown
-    id: proposal
-    attributes:
-      label: Is there a design proposal?
-      description: Design proposals are optional, our UX experts will work with you to develop a proposal
-      options:
-        - 'Yes'
-        - 'No'
-    validations:
-      required: true
   - type: input
     id: link
     attributes:
       label: Link to design proposal file (optional)
-      description: e.g. Figma-Link or Sketch-Link
+      description: Figma-Link
     validations:
       required: false
   - type: checkboxes
