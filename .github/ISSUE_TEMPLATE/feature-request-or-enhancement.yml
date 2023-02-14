@@ -4,12 +4,11 @@ title: "[Feature request]: "
 labels: ['type: feature-request']
 assignees:
   - octocat
-
 body:
   - type: markdown
     attributes:
       value: |
-        # Thanks for taking the time to fill out this bug report!
+        ## Please describe your idea in as much detail as possible.
   - type: checkboxes
     id: preflight-checklist
     attributes:
