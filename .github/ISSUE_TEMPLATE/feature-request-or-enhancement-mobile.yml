@@ -1,4 +1,4 @@
-name: Feature request or enhancement
+name: (Mobile) Feature request or enhancement
 description: Request for a new component or enhancement of a component
 title: "[Feature request]: "
 labels: ['type: feature-request']
@@ -15,7 +15,7 @@ body:
           required: true
         - label: I agree to follow the [Code of Conduct](https://github.com/lyne-design-system/lyne-components/blob/master/CODE_OF_CONDUCT.md) that this project adheres to.
           required: true
-        - label: I have searched the issue tracker for an issue that matches the one I want to file, without success.
+        - label: I have searched the [issue tracker](https://github.com/orgs/lyne-design-system/projects/4) for an issue that matches the one I want to file, without success. 
           required: true
   - type: markdown
     attributes:
@@ -55,11 +55,3 @@ body:
       description: Figma-Link
     validations:
       required: false
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true
