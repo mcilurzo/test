@@ -11,11 +11,11 @@ body:
       label: Preflight Checklist
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I have read the [Contributing Guidelines](https://github.com/lyne-design-system/lyne-components/blob/master/CONTRIBUTING.md) for this project.
+        - label: I have read the [Contributing Guidelines](https://github.com/sbb-design-systems/sbb-angular/blob/main/CONTRIBUTING.md) for this project.
           required: true
-        - label: I agree to follow the [Code of Conduct](https://github.com/lyne-design-system/lyne-components/blob/master/CODE_OF_CONDUCT.md) that this project adheres to.
+        - label: I agree to follow the [Code of Conduct](https://github.com/sbb-design-systems/sbb-angular/blob/main/CODE_OF_CONDUCT.md) that this project adheres to.
           required: true
-        - label: I have searched the [issue tracker](https://github.com/orgs/lyne-design-system/projects/4) for an issue that matches the one I want to file, without success. 
+        - label: I have searched the [issue tracker](https://github.com/orgs/sbb-design-systems/projects/1) for an issue that matches the one I want to file, without success. 
           required: true
   - type: markdown
     attributes:

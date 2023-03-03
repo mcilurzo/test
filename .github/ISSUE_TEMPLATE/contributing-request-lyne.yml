@@ -56,8 +56,22 @@ body:
     validations:
       required: false
   - type: textarea
+    id: api-proposal
+    attributes:
+      label: Please describe the required properties (with type and value) for the component
+      value: |
+        Example:
+        variant (string): "primary" | "secondary" | "translucent" | "transparent"
+        size (string):  "s" | "m" | "l"
+  - type: textarea
     id: markup-proposal
     attributes:
       label: Please send a proposal for a html markup
       description: This input will be automatically formatted into html.
       render: html
+      value: |
+        Example: 
+        <sbb-button>
+          <sbb-icon slot="icon" name="info"></sbb-icon>
+          Label
+        </sbb-button>
