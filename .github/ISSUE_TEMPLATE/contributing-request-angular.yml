@@ -29,17 +29,6 @@ body:
         - 'Contribute an enhancement of a component'
     validations:
       required: true
-  - type: dropdown
-    id: component-or-design-token
-    attributes:
-      label: It affects the following packages
-      options:
-        - 'Design Tokens'
-        - 'Components'
-        - 'Design Tokens & Components'
-        - 'Other'
-    validations:
-      required: true
   - type: textarea
     id: feature-description
     attributes:
