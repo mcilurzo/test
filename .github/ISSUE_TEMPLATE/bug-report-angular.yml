@@ -38,22 +38,11 @@ body:
         - 'Other'
     validations:
       required: true
-  - type: dropdown
-    id: component-or-design-token
-    attributes:
-      label: It affects the following packages
-      options:
-        - 'Design Tokens'
-        - 'Components'
-        - 'Both'
-        - 'Other'
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
-      label: Which version of Lyne Components are you using 
-      description: e.g. 26.2
+      label: Which version are you using 
+      description: e.g. 15.5.0
     validations:
       required: false
   - type: markdown

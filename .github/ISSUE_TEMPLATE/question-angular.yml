@@ -1,16 +1,10 @@
 name: (Angular) Question
-description: Usage question or discussion about Components or Design Tokens
+description: Ask a question to our developers and user experience architects
 title: "[Question]: "
 labels: ['type: question']
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Hi there! 👋🏻 We hope everything is fine using our projects from the Lyne Design System. It looks like you might have a question about our work, so we wanted to share some resources that you could use if you have not tried them yet 🙂.
-        You can find the Lyne Components documentation [here](https://github.com/lyne-design-system/lyne-components/docs). Also have first a look at our [issues](https://github.com/lyne-design-system/lyne-components/issues) if your question/issue has been asked/raised before or even might have been solved.
-        If these resources do not work out, help us out by filling out a couple of details below!
   - type: checkboxes
     id: preflight-checklist
     attributes:
@@ -27,15 +21,6 @@ body:
     attributes:
       value: |
         ## Your question
-  - type: dropdown
-    id: component-or-design-token
-    attributes:
-      label: It affects the following packages
-      options:
-        - 'Design Tokens'
-        - 'Components'
-        - 'Design Tokens & Components'
-        - 'Other'
     validations:
       required: true
   - type: input
